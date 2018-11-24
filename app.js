@@ -52,5 +52,5 @@ sequelize.rajioInfo.sync()
 gc.init()
 info.init()
 
-app.listen(80);
-log4js.info('Serving at http://localhost:80');
+app.listen(8080);
+log4js.info('Serving at http://localhost:8080');
